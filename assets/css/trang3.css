@@ -1,0 +1,50 @@
+.content{
+    position: relative;
+}
+.col8 {
+    max-width: 64.667%;
+}
+.col4 {
+    width: 28.332%;
+    padding: 15px 33px;
+}
+.col8,.col4 {
+    float: left;
+}
+.sungsot {
+    clear: both;
+}
+.cohue {
+    clear: both;
+}
+.col4 p {
+    text-align: justify;
+    text-indent: 20px;
+}
+.col4 h2 {
+    text-transform: uppercase;
+    color: red;
+    padding-bottom: 10px;
+}
+.cohue .col8 {
+    width: 621px;
+}
+.col8 img {
+    height: 90%!important;
+    width: 96%;
+}
+.centerimg {
+    position: absolute;
+    right: 0;
+    top: 27%;
+    border: 21px #fff solid;
+    border-right: none;
+    box-shadow: -6px 5px 14px 0px #00000052;
+}
+
+.centerimg img {
+    width: 100%;
+}
+.cohue>.col4 {
+    padding-top: 50px;
+}

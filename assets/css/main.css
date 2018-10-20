@@ -1,0 +1,130 @@
+.navmenu ul {
+    list-style: none;
+}
+
+.navmenu ul>li {
+    display: inline-block;
+    padding: 5px 11px;
+    vertical-align: middle;
+}
+
+.navmenu img {
+    width: 80px;
+    height: 80px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navmenu {
+    text-align: center;
+    box-shadow: 0 4px 2px -2px #d4f138;
+    margin-bottom: 4px;
+    background: #fff;
+}
+
+.footer {
+    background: pink;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    clear:both;
+}
+
+.navmenu li>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+a.active {
+    color: #ca0000!important;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.content{
+    height: 1123px;
+    background: #fff;
+}
+.navmenu li>a:hover {
+    color: #5975fd;
+}
+.trang1 {
+    background: url('../../images/anh to.jpg') center no-repeat;
+    background-size: cover;
+    height: 100%
+}
+
+.textop {
+}
+
+h3 {
+    font-style: italic;
+}
+
+.textop h3 {
+    font-size: 60px;
+}
+
+.textop h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 3px 2px 5px #0000007a;
+    letter-spacing: 11px;
+}
+
+.textop p {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+body {
+    background: #b9b9b9;
+}
+
+.textop, .text-center,.text-footer {
+    text-align: right;
+    padding: 60px;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 40px;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+.text-center h3 {
+    color: red;
+    font-style: normal;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.text-footer {
+    text-align: left;
+    padding-bottom: 215px;
+}
+
+.text-footer h3 {
+    font-style: normal;
+    color: red;
+    font-size: 45px;
+}
+
+.text-footer p {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+}
